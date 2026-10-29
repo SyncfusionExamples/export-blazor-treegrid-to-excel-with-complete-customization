@@ -1,18 +1,31 @@
 # Export Blazor TreeGrid to Excel with Complete Customization
 
-This sample explains about how to perform excel exporting in the Blazor TreeGrid component. This project also includes code snippet to customize the file name, theme, header, and footer of the exported excel document.
+A quick-start Blazor WebAssembly application (.NET 10) that shows how to export the Syncfusion Blazor Tree Grid to Excel and CSV. It also includes code to customize the file name, theme, header, and footer of the exported Excel document.
 
-**Documentation**: https://blazor.syncfusion.com/documentation/treegrid/excel-export
+**Documentation**: https://help.syncfusion.com/grid-sdk/blazor/tree-grid/getting-started
 
-**Online examples**: https://blazor.syncfusion.com/demos/tree-grid/exporting?theme=bootstrap4
+**Online example**: https://blazor.syncfusion.com/demos/tree-grid/exporting
 
 ## Prerequisites
 
-* Visual Studio 2022
+* [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
+* Visual Studio 2022 / Visual Studio Code
+
+## Project structure (.NET 10)
+
+```
+├── App.razor
+├── _Imports.razor
+├── Program.cs
+├── TreeGridExcelExportSample.csproj
+├── Layout/               # MainLayout
+├── Pages/                # Home (Tree Grid export sample), NotFound
+├── Properties/           # launchSettings.json
+└── wwwroot/              # index.html, css, bootstrap
+```
 
 ## How to run the project
 
 * Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
-* Restore the NuGet packages by rebuilding the solution.
+* Restore the NuGet packages by rebuilding the project.
 * Run the project.
